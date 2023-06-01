@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Misc", "Misc\Misc.fsproj", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SqlProviderDemo", "SqlProviderDemo\SqlProviderDemo.fsproj", "{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Json", "Json\Json.fsproj", "{91B096C8-E742-410D-9D86-8286FB938AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B096C8-E742-410D-9D86-8286FB938AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B096C8-E742-410D-9D86-8286FB938AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B096C8-E742-410D-9D86-8286FB938AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B096C8-E742-410D-9D86-8286FB938AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
