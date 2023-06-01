@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SuaveStudy", "SuaveStudy\SuaveStudy.fsproj", "{BEA24E17-F327-4D62-A525-0156E4930D41}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Misc", "Misc\Misc.fsproj", "{40494514-ECCA-4D32-BF87-91323452CD18}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SqlProviderDemo", "SqlProviderDemo\SqlProviderDemo.fsproj", "{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA24E17-F327-4D62-A525-0156E4930D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA24E17-F327-4D62-A525-0156E4930D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA24E17-F327-4D62-A525-0156E4930D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA24E17-F327-4D62-A525-0156E4930D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40494514-ECCA-4D32-BF87-91323452CD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40494514-ECCA-4D32-BF87-91323452CD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40494514-ECCA-4D32-BF87-91323452CD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40494514-ECCA-4D32-BF87-91323452CD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89DB12B-A0F1-48B4-979D-B314C5AF85BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
