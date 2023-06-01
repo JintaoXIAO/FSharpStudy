@@ -9,11 +9,14 @@ let connStr = "Host=localhost;Username=postgres;Password=123;Database=dvdrental"
 [<Literal>]
 let schema = "public"
 
+[<Literal>]
+let resPath = __SOURCE_DIRECTORY__ + @"/compilelibs"
+
 type sql = SqlDataProvider<
     DatabaseProviderTypes.POSTGRESQL,
     connStr,
     "",
-    "C:\\Users\\xiaoj\\Dev\\FSharpStudy\\SqlProviderDemo\\compilelibs",
+    resPath,
     1000,
     NullableColumnType.OPTION,
     schema>
