@@ -1,0 +1,67 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!markdown
+
+### Verbatim Strings
+> preceded with "@", any escape sequences in a verbatim string is ignored.
+
+> two quotation mark characters are interpreted as one quotation mark character
+
+#!fsharp
+
+let filePath = @"C:\Program File\dotnet\dotnet.exe"
+
+#!markdown
+
+### Triple Quoted Strings
+> all escape sequences are ignored.
+
+#!fsharp
+
+let xmlFragment1 = @"<book author=""Milton, John"">"
+printfn "%s" xmlFragment1
+let xmlFragment2 = """<book author="Milton, John">"""
+printfn "%s" xmlFragment2
+
+#!fsharp
+
+let str1 = "abc\
+def"
+let str2 = """abc
+def"""
+printfn "%s" str1
+printfn "%s" str2
+
+#!fsharp
+
+let a = "hello world"
+let b = a[2..5]
+Console.WriteLine(a)
+Console.WriteLine(b)
+let c = " from FSharp notebook"
+Console.WriteLine(a + c)
+
+#!markdown
+
+#### String Module
+
+#!fsharp
+
+let sayHello = "hello world from FSharp"
+open System.Globalization
+
+String.collect (fun (c: char) -> (char ((int c) + 1)).ToString() ) sayHello
+
+String.concat "|" (List.toSeq ["this"; "is"; "jintao"; "speaking"])
+
+#!markdown
+
+### Interpolated strings
+
+#!fsharp
+
+let name = "Phillip"
+let age = 30
+printfn $"Name: {name}, Age: {age}"

@@ -1,0 +1,86 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!fsharp
+
+// sbyte: signed byte
+let sbyte_min = -128y
+let sbyte_max = 127y
+
+// byte: unsigned byte
+let ubyte_min = 0uy
+let ubyte_max = 255uy
+
+// int16: signed 16 bit int 
+let sint16_min = -32768s
+let sint16_max = 32767s
+
+// uint16: unsigned 16 bit int
+let uint16_min = 0us
+let uint16_max = 65535us
+
+// int: signed 32 bit int
+let sint_min = -2147483648l
+let sint_max = 2147483647l
+
+// uint: unsigned 32 bit int
+let uint_min = 0ul
+let uint_max = 4294967295ul
+
+// nativeint: native pointer to a signed natural number
+// based on native machine, not portable
+let nint: nativeint = 1232333232323232n
+
+// int64: signed 64 bit int
+let sint64_min: int64 = -9223372036854775808L
+let sint64_max: int64 = 9223372036854775807L
+
+// uint64: unsigned 64 bit int
+let uint64_min: uint64 = 0UL
+let uint64_max: uint64 = 18446744073709551615UL
+
+// single float: 32 bit floating point number
+let sfloat: single = 23.32F
+
+// double float: 64 bit floating point number
+let dfloat: double = 3443.32
+
+// bigint
+let bint = 9999999999999999999I
+
+// decimal
+let d = 0.234345M
+
+// char
+let c1 = 'a'
+let c2 = '\u0078'
+
+// string
+let s1 = "text\n"
+let s2 = @"c:\filename"
+let s3 = """<book title="Scala 3rd">"""
+
+// byte
+let b = 'a'B
+
+// byte[]
+let bArr = "hello"B
+
+// verbatim string
+let vs = @"hello world"
+
+#!markdown
+
+### Named literals
+> add `[<Literal>]` to mark a variable to be a constant
+
+use cases
+- pattern matching without a `when` clause (need to be Capitals)
+- attribute arguments 
+- static type provider arguments (SqlDataProvider)
+
+#!fsharp
+
+[<Literal>]
+let SomeJson = """{"numbers": [1,2,3,4,5]}"""

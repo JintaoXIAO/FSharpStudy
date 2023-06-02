@@ -1,0 +1,10 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!fsharp
+
+// mutable variable
+let mutable x = 1
+x <- x + 1
+x
